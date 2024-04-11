@@ -1,6 +1,6 @@
 import { useContext } from "react";
+import { Link, Navigate, useParams } from "react-router-dom";
 import { UserContext } from "../UserContext.jsx";
-import {Link, Navigate, useParams} from "react-router-dom";
 
 export default function AccountPage(){
     const {ready,user} = useContext(UserContext);
