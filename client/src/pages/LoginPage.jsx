@@ -1,6 +1,6 @@
-import { Link, Navigate} from "react-router-dom";
-import { useContext, useState } from "react";
 import axios from "axios";
+import { useContext, useState } from "react";
+import { Link, Navigate } from "react-router-dom";
 import { UserContext } from "../UserContext";
 
 export default function LoginPage(){
